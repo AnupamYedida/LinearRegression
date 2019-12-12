@@ -8,7 +8,7 @@ X_book = np.random.rand(100,1)
 Y_book = 4 + 3*X_book + np.random.randn(100,1)
 X_book_b = np.c_[np.ones((100,1)),X_book]
 
-df = pd.read_csv("../datasets/data.txt")
+df = pd.read_csv("data.txt")
 
 m = len(df['Y'])
 X = df['X']
